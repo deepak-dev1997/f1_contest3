@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search" />
+            <button class="btn btn-outline-info" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- carousel starts -->
+      <section>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="3"></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/img.jpg"
+                alt="Los Angeles"
+                class="d-block"
+                style="width: 100%"
+                height="580px" />
+              <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/img1.jpg"
+                alt="Chicago"
+                class="d-block"
+                style="width: 100%"
+                height="580px" />
+              <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/img.jpg"
+                alt="New York"
+                class="d-block"
+                style="width: 100%"
+                height="580px" />
+              <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/img1.jpg"
+                alt="New York"
+                class="d-block"
+                style="width: 100%"
+                height="580px" />
+              <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="texxt">
+        <div class="container-fluid">
+          <h1>Text Title</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            cupiditate natus ex pariatur eos numquam, aliquam blanditiis tenetur
+            distinctio quasi. Velit, consequatur tempora neque, sint distinctio
+            ducimus expedita ullam quas deserunt ut atque quos quaerat itaque
+            nobis aliquam ipsa eum cum in odit, hic quibusdam perferendis?
+            Soluta voluptatibus accusantium, quia dolores libero tenetur, rerum
+            molestiae vero vel nostrum earum ab! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Distinctio vero libero eaque officia
+            quasi molestias optio! Aliquam beatae adipisci id libero ab eaque
+            minus quisquam nemo exercitationem qui! Sit sapiente deleniti
+            voluptatibus nam, inventore vel facilis aperiam labore, animi
+            aliquid vero quod assumenda, similique libero sed tempora fugit?
+            Totam assumenda officia debitis iusto laboriosam provident eaque.
+            Quaerat dolor laudantium ducimus!
+          </p>
+        </div>
+      </section>
+      <!-- accordian -->
+      <section class="container-fluid">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                second item's accordion body. Let's imagine this being filled
+                with some actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                third item's accordion body. Nothing more exciting happening
+                here in terms of content, but just filling up the space to make
+                it look, at least at first glance, a bit more representative of
+                how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- card section -->
+      <section class="cardBox">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem">
+                <div class="card-footer">Card Header</div>
+
+                <img
+                  src="images/img4.png"
+                  class="card-img-top"
+                  alt="..."
+                  height="200px"
+                  style="border-radius: 0" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button type="button" class="btn btn-primary">
+                    Go Somewhere
+                  </button>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer">Card footer</div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem">
+                <div class="card-footer">Card Header</div>
+
+                <img
+                  src="images/img4.png"
+                  class="card-img-top"
+                  alt="..."
+                  height="200px"
+                  style="border-radius: 0" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button type="button" class="btn btn-primary">
+                    Go Somewhere
+                  </button>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer">Card footer</div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem">
+                <div class="card-footer">Card Header</div>
+                <img
+                  src="images/img4.png"
+                  class="card-img-top"
+                  alt="..."
+                  height="200px"
+                  style="border-radius: 0" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button type="button" class="btn btn-primary">
+                    Go Somewhere
+                  </button>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer">Card footer</div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem">
+                <div class="card-footer">Card Header</div>
+                <img
+                  src="images/img4.png"
+                  class="card-img-top"
+                  alt="..."
+                  height="200px"
+                  style="border-radius: 0" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button type="button" class="btn btn-primary">
+                    Go Somewhere
+                  </button>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer">Card footer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <!-- table section -->
+      <section class="tabledata">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"><input type="checkbox" /></th>
+                <th scope="col">Sr.No</th>
+                <th scope="col" style="width: 438px">Title</th>
+                <th scope="col" style="width: 438px">Title</th>
+                <th scope="col" style="width: 438px">Title</th>
+                <th scope="col" style="width: 438px">Title</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <td scope="row"><input type="checkbox" name="" id="" /></td>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td class="crud">
+                  <a href="">Publish</a>
+                  <a href="">Edit</a>
+                  <a href="">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"><input type="checkbox" name="" id="" /></td>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td class="crud">
+                  <a href="">Publish</a>
+                  <a href="">Edit</a>
+                  <a href="">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"><input type="checkbox" name="" id="" /></td>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td class="crud">
+                  <a href="">Publish</a>
+                  <a href="">Edit</a>
+                  <a href="">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"><input type="checkbox" name="" id="" /></td>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td class="crud">
+                  <a href="">Publish</a>
+                  <a href="">Edit</a>
+                  <a href="">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"><input type="checkbox" name="" id="" /></td>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td class="crud">
+                  <a href="">Publish</a>
+                  <a href="">Edit</a>
+                  <a href="">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"><input type="checkbox" name="" id="" /></td>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td class="crud">
+                  <a href="">Publish</a>
+                  <a href="">Edit</a>
+                  <a href="">Delete</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <br />
+      <section class="bform">
+        <div class="container-fluid">
+          <h2 style="font-size: 16px">Bootstrap Form</h2>
+          <form action="">
+            <div class="row pb-3">
+              <div class="col-sm-6" id="fname">
+                <input
+                  type="text"
+                  id="inputPassword5"
+                  placeholder="First Name"
+                  class="form-control" />
+              </div>
+              <div class="col-sm-6">
+                <input
+                  type="text"
+                  id="inputPassword5"
+                  placeholder="Last Name"
+                  class="form-control" />
+              </div>
+            </div>
+            <div class="row pb-3">
+              <div class="col-sm-12">
+                <input
+                  type="email"
+                  id="inputPassword5"
+                  placeholder="email"
+                  class="form-control" />
+              </div>
+            </div>
+            <div class="row pb-3">
+              <div class="col-sm-12">
+                <input
+                  type="password"
+                  id="inputPassword5"
+                  placeholder="Password"
+                  class="form-control" />
+              </div>
+            </div>
+            <div class="row pb-3">
+              <div class="col-sm-12">
+                <input
+                  type="password"
+                  id="inputPassword5"
+                  placeholder="Confirm Password"
+                  class="form-control" />
+              </div>
+            </div>
+            <button class="btn btn-primary">Submit Form</button>
+          </form>
+        </div>
+      </section>
+      <br />
+      <br />
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

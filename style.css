@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #fff;
+    padding: 20px 10px 20px 0;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #495057 !important;
+}
+.navbar-nav .nav-link {
+    color:  #0D6EFD !important;
+    padding: 8px 16px 8px 16px !important;
+}
+.texxt{
+    padding: 0 10px;
+}
+.texxt h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.cardBox{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.tabledata{
+    padding: 0 20px;
+}
+.crud a {
+    text-decoration: none;
+    gap: 10px;
+}
+.bform{
+    padding: 0 20px;
+}
+
+@media (min-width:800px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 768px){
+    .navbar-brand{
+        display: inline-flex;
+    }
+    .texxt{
+        padding: 0;
+    }
+    .texxt h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .cardBox{
+        padding-left: 0;
+        padding-top: 0px;
+    }
+    .tabledata{
+        padding: 0;
+    }
+    .crud a {
+        text-decoration: none;
+        gap: 10px;
+    }
+    .bform{
+        padding: 0;
+    }
+    .card{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    #fname{
+        margin-bottom: 15px;
+    }
+       
+}
